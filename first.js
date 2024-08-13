@@ -39,3 +39,16 @@ const emoji='✨';
 emoji='🍨';
 console.log(emoji);
 */
+     /* IF-ELSE CONDITIONS
+ NOTE: TRUTHY-Those values which are not empty string' ' and 0
+ FALSY-0,NULL,undefined,NaN,'',false */
+
+if('')
+{
+    console.log('truthy value')
+}
+else{
+    console.log('falsy value');
+}
+
+    
