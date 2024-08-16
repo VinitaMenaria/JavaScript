@@ -50,5 +50,78 @@ if('')
 else{
     console.log('falsy value');
 }
+// NOTE:to log the error msg
+console.error("hello");
 
-    
+// NOTE:To log the warning msg
+console.warn("hello");
+
+// NOTE: USED TO CALCULATE THE EXECUTION TIME FOR THE CODE;
+console.time('ar');
+const arr=[1,2,3,4,5];
+console.log(arr);
+console.timeEnd('ar');
+
+// NOTE: IN TYPE COERSION ONE DATA TYPE TO ANOTHER IMPLICITLY BY JAVASCRIPT
+const a=3+'3';
+console.log(a);
+console.log(typeof a);
+const b=+'5';
+console.log(b);
+console.log(typeof b);
+const c=true+1;
+console.log(c);
+console.log(typeof c);
+
+var i=25;
+var j=23;
+console.log(i);
+console.log(j);
+var k=j;
+k += 5;
+console.log(k);
+
+FUNCTION
+function avg(a,b){
+    return (a+b)/2;
+}
+c1= avg(4,6);
+console.log(c1);
+
+arr.forEach(function(ele)
+{
+    console.log(ele); 
+})
+let myarr=[1,2,"string",null,true];
+console.log(myarr.length);
+myarr.pop();
+console.log(myarr);
+myarr.push("vinita");
+console.log(myarr);
+// myarr.shift()
+// console.log(myarr);
+myarr.unshift("vinita")
+console.log(myarr);
+myarr.sort()
+console.log(myarr);
+myarr.toString();
+console.log(myarr);
+myarr.sort();
+console.log(myarr);
+
+let mystr="this is a paragraph";
+console.log(mystr.length);
+console.log(mystr.lastIndexOf("p"));
+console.log(mystr.indexOf("paragraph"));
+console.log(mystr.slice(0,3))
+str2=mystr.replace("paragraph","row");
+console.log(str2);
+
+// DATE
+let mydate=new Date();
+console.log(mydate.getDate())
+console.log(mydate.getDay())
+console.log(mydate.getFullYear())
+console.log(mydate.getMinutes())
+console.log(mydate.getHours())
+
