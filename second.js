@@ -4,10 +4,10 @@ const obj1={a:1,b:2};
 const obj2={c:3,d:4};
 
 // NOTE:Target and source
-
 // Object.assign(target,source)
+
 Object.assign(obj2,obj1);
-console.log(obj2)
+console.log(obj2) 
 
 // object freeze
 
