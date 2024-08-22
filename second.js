@@ -34,7 +34,7 @@ console.log(productname,price,category)
 
 // destructuring used in the function param
 function sum3([a,b,c]){
-     return a+b+c;
+     return a+b+c;
  }
  console.log(sum3([1,2,3]));
 
@@ -84,6 +84,7 @@ function sum4(...values){
     })
 }
 sum4(1,2,3,4)
+
 
 
 
